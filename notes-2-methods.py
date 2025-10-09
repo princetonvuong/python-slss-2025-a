@@ -10,3 +10,11 @@ elif weather.lower() == "sunny":
 
 else:
     print("I see...")
+
+fries_reply = input("Do you want fries?")
+# "yes!"
+
+if "yes" in fries_reply.lower():
+    print("Here are your fries")
+else:
+    print("Here are no fries")
