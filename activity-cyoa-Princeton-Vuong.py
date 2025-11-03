@@ -168,7 +168,6 @@ elif path.lower() == "b":
     enemy2 = "Goblin King"
     enemy_health = 40
 
-# --- MINI BOSS: GOBLIN KING ---
 while health > 0 and enemy_health > 0:
     action2 = input("Do you want to attack or use a potion?\n")
 
@@ -219,7 +218,6 @@ print(
 )
 inventory.append("healthpot")
 
-# --- FINAL BOSS: DRAGON ---
 print("\nYou finally reach the mouth of the volcano.")
 print("The Dragon roars from within — this is it.")
 enemy3 = "Dragon"
@@ -275,7 +273,3 @@ if health <= 0:
 print("With one final blow, the Dragon collapses.")
 print("The volcano rumbles... but you stand victorious.")
 print(f"Congratulations, {name} the {player_class}! You have saved the village!")
-
-# Climax
-
-# Resolution
