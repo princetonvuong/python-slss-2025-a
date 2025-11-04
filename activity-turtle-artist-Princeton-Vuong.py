@@ -62,10 +62,10 @@ def draw_quadrant(color, start_angle):
 
 
 # Draw BMW quadrants
-draw_quadrant(BMW_BLUE, 90)  # Top-left
-draw_quadrant(WHITE, 0)  # Top-right
-draw_quadrant(BMW_BLUE, 270)  # Bottom-right
-draw_quadrant(WHITE, 180)  # Bottom-left
+draw_quadrant(BMW_BLUE, 90)
+draw_quadrant(WHITE, 0)
+draw_quadrant(BMW_BLUE, 270)
+draw_quadrant(WHITE, 180)
 
 
 t.penup()
