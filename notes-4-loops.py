@@ -2,7 +2,7 @@
 # Author:Princeton Vuong
 # October 14
 
-
+import random
 import turtle
 
 window = turtle.Screen()  # Set up the window and its attributes
@@ -10,11 +10,12 @@ window.bgcolor("violet")
 
 # TMNT - turtles
 mikey = turtle.Turtle()
-mikey.turtlesize(10)  # size
+# mikey.turtlesize()  # size
 mikey.color("orange")
+mikey.width(5)
 mikey.pencolor("white")
-mikey.shape("turtle")
-
+mikey.shape("circle")
+mikey.hideturtle()
 # m.circle(100)
 # m.penup()
 # m.goto(0, -400)
@@ -58,5 +59,14 @@ for counter in range(10):
     # ch chip in the middle
     mikey.goto(0 + counter, 0 + counter)
     mikey.stamp()
+
+# make cookies in random lcotions
+# make 1000 cookies
+
+
+for _ in range(1000):
+    x = random.randrange(-700, 700)
+    y = random.randrange(-700, 700)
+
 
 window.exitonclick()

@@ -1,7 +1,3 @@
-# Make a drawing
-# Author: Princeton Vuong
-# October 28
-#
 import turtle
 import random
 
@@ -61,10 +57,11 @@ def draw_quadrant(color, start_angle):
     t.home()
 
 
-draw_quadrant(BMW_BLUE, 90)
-draw_quadrant(WHITE, 0)
-draw_quadrant(BMW_BLUE, 270)
-draw_quadrant(WHITE, 180)
+# Draw BMW quadrants
+draw_quadrant(BMW_BLUE, 90)  # Top-left
+draw_quadrant(WHITE, 0)  # Top-right
+draw_quadrant(BMW_BLUE, 270)  # Bottom-right
+draw_quadrant(WHITE, 180)  # Bottom-left
 
 
 t.penup()
